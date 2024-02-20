@@ -66,7 +66,7 @@ def close_stream(stream, p):
 
 def live_speech_to_text():
     # Load the Vosk model
-    model = Model("/Users/saud/Desktop/findingbuddy/speech/vosk-model-small-en-us-0.15")
+    model = Model("/Users/saud/Desktop/findingbuddy/success/vosk-model-small-en-us-0.15")
 
     # Initialize the recognizer with the model
     recognizer = KaldiRecognizer(model, 16000)
