@@ -33,9 +33,9 @@ To set up Finding Buddy, follow these steps:
 json
     4. Copy code
    
-'''
-http://<IP_ADDRESS>:<PORT>/video
-'''
+    '''bash
+    http://<IP_ADDRESS>:<PORT>/video
+    '''
 
     6. Test the connection: Ensure that your computer and smartphone are connected to the same Wi-Fi network. Open a web browser on your computer and navigate to the URL specified in the configuration file to verify the camera stream.
 
