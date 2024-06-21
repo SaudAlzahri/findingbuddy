@@ -61,17 +61,8 @@ json
 3. **Audio Guidance**:
     The device will provide audio instructions using the novel rotated military clock directioning system and hand-relative directioning system to guide you to the object.
 
-## Testing and Validation
-The device was tested with four sighted participants blindfolded to simulate the VI user experience. The assessment metrics included searching accuracy and searching speed, with participants performing searches using both the grab method and land method. The results demonstrated high accuracy and user satisfaction, confirming the system's effectiveness.
-
-## Conclusion
-The Finding Buddy device represents a significant advancement in assistive technology for the visually impaired. By addressing the specific challenge of locating household items, it fills a critical gap and has the potential to greatly enhance the independence and quality of life for VI individuals.
-
-## References
-For a detailed list of references, please refer to the `References` section in the documentation.
-
-## Contact
-For questions or support, please contact [Your Name] at [Your Email].
+## Documentation
+HERE IS THE DRIVE LINK TO THE PAPER
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
@@ -80,19 +71,6 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 **Video Demonstration**: [YouTube Video Link]
 
-**GitHub Repository**: [GitHub Repository Link]
-
-
-
-
-
-To use your smartphone's camera as the input for the Finding Buddy device, follow these steps:
-
-Install a streaming app on your smartphone: Download and install a camera streaming app such as "IP Webcam" for Android or "EpocCam" for iOS.
-Configure the app: Open the app and configure it to stream video over your local Wi-Fi network. Make a note of the IP address and port number provided by the app.
-Update the configuration file: Edit the configuration file (config/camera_config.json) in the repository to include the IP address and port number of your smartphone's camera stream. The configuration file should look something like this:
-json
-Copy code
 {
     "camera_source": "http://<IP_ADDRESS>:<PORT>/video"
 }
