@@ -33,7 +33,7 @@ To set up Finding Buddy, follow these steps:
 json
     4. Copy code
    
-'''bash
+'''
 http://<IP_ADDRESS>:<PORT>/video
 '''
 
