@@ -32,10 +32,11 @@ To set up Finding Buddy, follow these steps:
     3. Update the configuration file: Edit the configuration file (config/camera_config.json) in the repository to include the IP address and port number of your smartphone's camera stream. The configuration file should look something like this:
 json
     4. Copy code
-{
-    "camera_source": "http://<IP_ADDRESS>:<PORT>/video"
-}
-    5. Test the connection: Ensure that your computer and smartphone are connected to the same Wi-Fi network. Open a web browser on your computer and navigate to the URL specified in the configuration file to verify the camera stream.
+    '''
+    http://<IP_ADDRESS>:<PORT>/video
+    '''
+
+    6. Test the connection: Ensure that your computer and smartphone are connected to the same Wi-Fi network. Open a web browser on your computer and navigate to the URL specified in the configuration file to verify the camera stream.
 
 6. **Run the Application**:
     ```bash
