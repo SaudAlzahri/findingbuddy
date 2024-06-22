@@ -4,7 +4,7 @@
 **Finding Buddy** is an innovative assistive device designed to aid visually impaired (VI) individuals in locating specific objects within their environment. Finding Buddy is leveraging advanced technologies such as VOSK-API for speech recognition and YOLOv8 for object detection, as well as novel methods such as the Hand Relative Directioning System and the Rotated Military Clock Directioning System. Finding Buddy offers a user-friendly solution that enhances the independence and quality of life for VI users. This repository contains the implementation and supporting files for the Finding Buddy system.
 
 ## Hand Relative Directioning System
-    A novel feature was developed where the program can provide directioning relative to the hand, which is especially useful for smaller objects. The VI user may want to grab a fork, bottle, or toothbrush with their hand, while larger objects do not need hand relative directioning, e.g. bench, bus, or car. This is the first instance of hand relative directioning in VI assistive technology (see Figure 1).
+A novel feature was developed where the program can provide directioning relative to the hand, which is especially useful for smaller objects. The VI user may want to grab a fork, bottle, or toothbrush with their hand, while larger objects do not need hand relative directioning, e.g. bench, bus, or car. This is the first instance of hand relative directioning in VI assistive technology (see Figure 1).
     
 ![Figure 1](images/figure1.png)
 
