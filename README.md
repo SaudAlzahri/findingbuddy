@@ -8,14 +8,8 @@ The format of the audio given directions is perhaps the most vital element of th
 
 ## Hand Relative Directioning System
 A novel feature was developed where the program can provide directioning relative to the hand, which is especially useful for smaller objects. The VI user may want to grab a fork, bottle, or toothbrush with their hand, while larger objects do not need hand relative directioning, e.g. bench, bus, or car. This is the first instance of hand relative directioning in VI assistive technology.
-
 <img src="images/figure1.png" alt="Figure 1" width="600"/>
-
-<sup><sub>Figure 1: Diagram of the novel directioning system. Shown bigger on the left is the grab mode, and smaller on top right is the land mode. Audio given results are the clock degrees in addition to the forward distance in meters.<sub/><sup/>
-
-<sup>wowthis tag<sup/>
-
-<sub>wowthis tag<sub/>
+<sup>Figure 1: Diagram of the novel directioning system. Shown bigger on the left is the grab mode, and smaller on top right is the land mode. Audio given results are the clock degrees in addition to the forward distance in meters.<sup/>
 
 
 
