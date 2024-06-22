@@ -6,7 +6,7 @@
 ## Hand Relative Directioning System
     A novel feature was developed where the program can provide directioning relative to the hand, which is especially useful for smaller objects. The VI user may want to grab a fork, bottle, or toothbrush with their hand, while larger objects do not need hand relative directioning, e.g. bench, bus, or car. This is the first instance of hand relative directioning in VI assistive technology (see Figure 1).
     
-![Figure 1](relativepath/to/img.jpg?raw=true "Figure 1")
+![Figure 1](Images/Figure 1?raw=true "Figure 1")
 
 
 ## Installation
