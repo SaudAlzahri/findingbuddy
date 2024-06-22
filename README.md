@@ -8,7 +8,7 @@ A novel feature was developed where the program can provide directioning relativ
     
 ![Figure 1](images/figure1.png)
 
-<img src="images/figure1.png" alt="Figure 1" width="200"/>
+<img src="images/figure1.png" alt="Figure 1" width="500"/>
 
 
 
