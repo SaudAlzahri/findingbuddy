@@ -1,10 +1,13 @@
 # Finding Buddy
 
 ## Overview
-**Finding Buddy** is an innovative assistive device designed to aid visually impaired (VI) individuals in locating specific objects within their environment. By leveraging advanced technologies such as VOSK-API for speech recognition and YOLOv8 for object detection, Finding Buddy offers a user-friendly solution that enhances the independence and quality of life for VI users. This repository contains the implementation and supporting files for the Finding Buddy system.
+**Finding Buddy** is an innovative assistive device designed to aid visually impaired (VI) individuals in locating specific objects within their environment. Finding Buddy is leveraging advanced technologies such as VOSK-API for speech recognition and YOLOv8 for object detection, as well as novel methods such as the Hand Relative Directioning System and the Rotated Military Clock Directioning System. Finding Buddy offers a user-friendly solution that enhances the independence and quality of life for VI users. This repository contains the implementation and supporting files for the Finding Buddy system.
 
-## Abstract
-Visual impairment affects millions worldwide, making daily activities like object localization challenging, especially for the 253 million visually impaired individuals globally. This project proposes a novel solution, the Finding Buddy, which integrates advanced technologies like VOSK-API for speech recognition and YOLOv8 for object detection into a user-friendly device. Our experiments demonstrate the system's effectiveness and efficiency, addressing a critical gap in assistive technology for the visually impaired. The Finding Buddy aims to improve the independence and quality of life for VI individuals, providing an essential tool for daily object localization.
+## Hand Relative Directioning System
+    A novel feature was developed where the program can provide directioning relative to the hand, which is especially useful for smaller objects. The VI user may want to grab a fork, bottle, or toothbrush with their hand, while larger objects do not need hand relative directioning, e.g. bench, bus, or car. This is the first instance of hand relative directioning in VI assistive technology (see Figure 1).
+    
+![Figure 1](relativepath/to/img.jpg?raw=true "Figure 1")
+
 
 ## Installation
 To set up Finding Buddy, follow these steps:
