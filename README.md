@@ -77,8 +77,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ---
 
 **Video Demonstration**: [YouTube Video Link]
-
-{
-    "camera_source": "http://<IP_ADDRESS>:<PORT>/video"
-}
-Test the connection: Ensure that your computer and smartphone are connected to the same Wi-Fi network. Open a web browser on your computer and navigate to the URL specified in the configuration file to verify the camera stream.
