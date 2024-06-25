@@ -74,8 +74,10 @@ json
     The device will provide audio instructions using the novel rotated military clock directioning system and forward distance in meters to guide you to the object: "9 o'clock, 2 meters." Were the object to be small (bottle) the novel hand-relative directioning system would provide directioning to move your hand, however were it to be large (couch) it would provide directioning to move your body.
 
 ## Documentation
-Drive link to the scientific research paper.
+Drive link to the scientific research paper:
 &nbsp;[**Research Paper**](google.com)
+
+Youtube link to filming of testing and validation process: &nbsp; [**Video Demonstration**](https://www.youtube.com/watch?v=zEVl4kBO3d4)
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
