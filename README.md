@@ -5,7 +5,7 @@
 [**Video Demonstration**](https://www.youtube.com/watch?v=zEVl4kBO3d4)
 <p align="center">
 
-[**Research Paper**](download link for research paper)
+[**Research Paper**](google.com)
 </p>
 
 
