@@ -23,7 +23,6 @@ To set up Finding Buddy, follow these steps:
     ```bash
     git clone https://github.com/yourusername/FindingBuddy.git
     cd FindingBuddy
-    cd success
     ```
 
 2. **Install Dependencies**:
@@ -55,21 +54,24 @@ json
     ```
 
 ## Files
-- `main.py`: Main script to run the Finding Buddy application.
+- `main.py`: Main script to run the Finding Buddy application, beginning with audio input.
+- `object.py`: Function handling visual input and post visual input algorithms.
 - `requirements.txt`: List of required Python packages.
-- `vosk_api.py`: Script for speech recognition using VOSK-API.
-- `yolo_detection.py`: Script for object detection using YOLOv8.
-- `utils.py`: Utility functions for processing and calculations.
-- `config/`: Directory containing configuration files.
-- `models/`: Directory for storing pre-trained models.
+- `texttovoice.py`: Script containing gTTS's HTML text to voice function.
+- `clock.py`: Algorithm achieving the rotated military clock directioning system.
+- `vosk-model-small-en-us-0.15/`: Directory containing VOSK-API's language model.
+- `images/`: Directory for storing images used in the READ ME.
 
 ## Usage
-1. **Start the Device**:
-    Connect the headpiece (bone conduction headset, camera, and microphone) to the Raspberry Pi.
-2. **Voice Command**:
-    Use voice commands to interact with the device. For example, say "find my keys" to initiate a search for keys.
-3. **Audio Guidance**:
-    The device will provide audio instructions using the novel rotated military clock directioning system and hand-relative directioning system to guide you to the object.
+1. **Run the Application**:
+    Run the main file. Wait until initiation is completed in terminal.
+    ```bash
+    python main.py
+    ```
+3. **Voice Command**:
+    Use voice commands to interact with the system, with all command following the initiation phrase "Finding Buddy." For example, say "Finding Buddy, find my bottle" to begin a search for your water bottle.
+5. **Audio Guidance**:
+    The device will provide audio instructions using the novel rotated military clock directioning system and forward distance in meters to guide you to the object: "9 o'clock, 2 meters." Were the object to be small (bottle) the novel hand-relative directioning system would provide directioning to move your hand, however were it to be large (couch) it would provide directioning to move your body.
 
 ## Documentation
 HERE IS THE DRIVE LINK TO THE PAPER
