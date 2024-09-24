@@ -36,10 +36,7 @@ To set up Finding Buddy, follow these steps:
     pip3 install -r requirements.txt
     ```
 
-4. **Download Pre-trained Models**:
-    Download the required pre-trained models for VOSK-API and YOLOv8 and place them in the appropriate directories.
-
-   Connect your smartphone's camera as input:
+4. **Connect your smartphone's camera as input**:
    To use your smartphone's camera as the input for the Finding Buddy device, follow these steps:
 
     1. Install a streaming app on your smartphone: Download and install a camera streaming app such as "IP Webcam" for Android or "EpocCam" for iOS.
