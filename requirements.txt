@@ -8,4 +8,6 @@ google
 pyaudio
 vosk
 nltk
-PyObjC
+pathlib
+#IMPORTANT NOTE | for macOS users: Uncomment the following line to install PyObjC
+#PyObjC
