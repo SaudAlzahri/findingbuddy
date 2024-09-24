@@ -41,12 +41,17 @@ To set up Finding Buddy, follow these steps:
    To use your smartphone's camera as the input for the Finding Buddy device, you will use Iriun Webcam:
 
     On Your Smartphone:
+   
     1. Install **Iriun Webcam** using Google Play Store for Android or App Store for iOS.
     
     On Your Computer:
+   
     2. Go to the [Iriun Webcam website](https://iriun.com/).
+   
     3. Download the software for **Windows** or **macOS**, depending on your operating system.
+    
     4. Ensure that your computer and smartphone are connected to the **same Wi-Fi network**.
+
     5. **Wait for connection**: Your smartphone’s camera feed should automatically appear in the Iriun Webcam software on your computer.
 6. **Run the Application**:
     ```bash
