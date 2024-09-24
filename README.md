@@ -29,7 +29,7 @@ To set up Finding Buddy, follow these steps:
     
     cd findingbuddy
 
-        ```
+    ```
 
 3. **Install Dependencies**:
     ```bash
