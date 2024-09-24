@@ -1,0 +1,11 @@
+gTTS
+playsound
+opencv-python
+ultralytics
+mediapipe
+protobuf
+google
+pyaudio
+vosk
+nltk
+PyObjC
