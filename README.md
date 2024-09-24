@@ -24,11 +24,11 @@ To set up Finding Buddy, follow these steps:
     git clone https://github.com/SaudAlzahri/findingbuddy.git
     ```
     
-    Optional: Create Environment
-    ```bash
-    python3 -m venv venv
-    source ./venv/bin/activate
-    ```
+        Optional: Create Environment
+        ```bash
+        python3 -m venv venv
+        source ./venv/bin/activate
+        ```
 
 3. **Install Dependencies**:
     ```bash
