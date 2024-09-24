@@ -22,15 +22,21 @@ To set up Finding Buddy, follow these steps:
 1. **Clone the Repository**:
     ```bash
     git clone https://github.com/SaudAlzahri/findingbuddy.git
-    cd findingbuddy
+    ```
+    
+    Optional: Create Environment
+    ```bash
+    python3 -m venv venv
+    source ./venv/bin/activate
     ```
 
-2. **Install Dependencies**:
+3. **Install Dependencies**:
     ```bash
+    cd findingbuddy
     pip3 install -r requirements.txt
     ```
 
-3. **Download Pre-trained Models**:
+4. **Download Pre-trained Models**:
     Download the required pre-trained models for VOSK-API and YOLOv8 and place them in the appropriate directories.
 
    Connect your smartphone's camera as input:
