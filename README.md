@@ -25,7 +25,10 @@ To set up Finding Buddy, follow these steps:
     
      # Create Environment (Optional)
     python3 -m venv venv
+    # macOS
     source ./venv/bin/activate
+    # Windows
+    venv/Scripts/activate
     
     cd findingbuddy
 
