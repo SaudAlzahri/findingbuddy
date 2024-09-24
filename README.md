@@ -58,8 +58,8 @@ To set up Finding Buddy, follow these steps:
 
     5. **Wait for connection**: Your smartphone’s camera feed should automatically appear in the Iriun Webcam software on your computer.
   
-    NOTE: Once Iriun's software displays the connection, it automatically designates the camera feed as the first in the camera index (int 0), which is why we assign int 0 in main.py line 51. In some cases it can get assigned to a different number in the camera index, so you would change int 0 to 1 or 2.
-   main.py line 51
+    NOTE: Once Iriun's software displays the connection, it automatically designates the camera feed as the first in the camera index (int 0), which is why we assign int 0 in main.py line 51 (below). In some cases it can get assigned to a different number in the camera index, so you would change int 0 to 1 or 2.
+
    ```vid = cv2.VideoCapture(0)  # Value 0 should default to Iriun Webcam, otherwise try 1 or 2```
 6. **Run the Application**:
     ```bash
