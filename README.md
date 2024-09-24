@@ -36,9 +36,7 @@ To set up Finding Buddy, follow these steps:
     pip3 install -r requirements.txt
     ```
 
-4. **Connect your smartphone's camera as input**:
-
-*You may skip this step and use your laptop webcam.*
+4. **Connect your smartphone's camera as input**: *(You may skip this step and use your laptop webcam.)*
 
    To use your smartphone's camera as the input for the Finding Buddy device, you will use Iriun Webcam:
 
