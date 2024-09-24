@@ -9,6 +9,14 @@ import nltk
 from object import detect
 from texttovoice import speak
 
+# Necessary NLTK downloads
+nltk.download('punkt')
+nltk.download('punkt_tab')
+nltk.download('averaged_perceptron_tagger_eng')
+nltk.download('taggers/averaged_perceptron_tagger_eng/')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+
 # Function to test if something is a noun
 is_noun = lambda pos: pos[:2] == 'NN'
 
@@ -23,7 +31,7 @@ classes = ['person','bicycle', 'car','motorcycle', 'airplane', 'bus', 'train', '
            'cell phone','microwave', 'oven','toaster', 'sink', 'refrigerator', 'book', 'clock','vase', 'scissors', 
            'teddy bear', 'hair drier', 'toothbrush']
 
-keywords = ['finding buddy', "finding body", 'filing buddy', 'filing body', 'find a buddy']
+keywords = ['finding buddy', "finding body", 'filing buddy', 'filing body', 'find a buddy', 'finding a buddy']
 
 def find_command(text):
     for keyword in keywords:
