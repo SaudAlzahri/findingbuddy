@@ -8,6 +8,7 @@ from ultralytics import YOLO
 import nltk
 from object import detect
 from texttovoice import speak
+from pathlib import Path
 
 # Necessary NLTK Downloads
 nltk.download('punkt')
@@ -60,7 +61,7 @@ def close_stream(stream, p):
 def live_speech_to_text():
     print("Detect start")
     # Load the Vosk model
-    model = Model("/Users/saud/Desktop/findingbuddy/success/vosk-model-small-en-us-0.15")
+    model = Model(str(Path("vosk-model-small-en-us-0.15").resolve()))
 
     # Initialize the recognizer with the model
     recognizer = KaldiRecognizer(model, 16000)
