@@ -22,7 +22,7 @@ To set up Finding Buddy, follow these steps:
 1. **Clone the Repository**:
     ```bash
     git clone https://github.com/SaudAlzahri/findingbuddy.git
-    cd FindingBuddy
+    cd findingbuddy
     ```
 
 2. **Install Dependencies**:
