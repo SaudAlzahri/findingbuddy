@@ -77,6 +77,8 @@ def detect(model, vid, subject):
                 while loop == True:
                     ret, image = vid.read()
 
+                    image = cv2.rotate(image, cv2.ROTATE_90_CLOCKWISE)    # fix camera rotation
+
                     objr_result = model(image)
 
                     cv2.imshow('Webcam', image)
