@@ -22,17 +22,17 @@ To set up Finding Buddy, follow these steps:
 1. **Clone the Repository**:
     ```bash
     git clone https://github.com/SaudAlzahri/findingbuddy.git
-    ```
     
-        Optional: Create Environment
-        ```bash
-        python3 -m venv venv
-        source ./venv/bin/activate
+     # Create Environment (Optional)
+    python3 -m venv venv
+    source ./venv/bin/activate
+    
+    cd findingbuddy
+
         ```
 
 3. **Install Dependencies**:
     ```bash
-    cd findingbuddy
     pip3 install -r requirements.txt
     ```
 
