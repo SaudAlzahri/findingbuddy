@@ -27,7 +27,7 @@ To set up Finding Buddy, follow these steps:
 
 2. **Install Dependencies**:
     ```bash
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
     ```
 
 3. **Download Pre-trained Models**:
@@ -50,7 +50,7 @@ json
 
 6. **Run the Application**:
     ```bash
-    python main.py
+    python3 main.py
     ```
 
 ## Files
@@ -66,7 +66,7 @@ json
 1. **Run the Application**:
     Run the main file. Wait until initiation is completed in terminal.
     ```bash
-    python main.py
+    python3 main.py
     ```
 3. **Voice Command**:
     Use voice commands to interact with the system, with all command following the initiation phrase "Finding Buddy." For example, say "Finding Buddy, find my bottle" to begin a search for your water bottle.
