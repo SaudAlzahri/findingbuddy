@@ -37,20 +37,17 @@ To set up Finding Buddy, follow these steps:
     ```
 
 4. **Connect your smartphone's camera as input**:
-   To use your smartphone's camera as the input for the Finding Buddy device, follow these steps:
 
-    1. Install a streaming app on your smartphone: Download and install a camera streaming app such as "IP Webcam" for Android or "EpocCam" for iOS.
-    2. Configure the app: Open the app and configure it to stream video over your local Wi-Fi network. Make a note of the IP address and port number provided by the app.
-    3. Update the configuration file: Edit the configuration file (config/camera_config.json) in the repository to include the IP address and port number of your smartphone's camera stream. The configuration file should look something like this:
-json
-    4. Copy code
-   
-        ```bash
-        http://<IP_ADDRESS>:<PORT>/video
-        ```
+   To use your smartphone's camera as the input for the Finding Buddy device, you will use Iriun Webcam:
 
-    6. Test the connection: Ensure that your computer and smartphone are connected to the same Wi-Fi network. Open a web browser on your computer and navigate to the URL specified in the configuration file to verify the camera stream.
-
+    On Your Smartphone:
+    1. Install **Iriun Webcam** using Google Play Store for Android or App Store for iOS.
+    
+    On Your Computer:
+    2. Go to the [Iriun Webcam website](https://iriun.com/).
+    3. Download the software for **Windows** or **macOS**, depending on your operating system.
+    4. Ensure that your computer and smartphone are connected to the **same Wi-Fi network**.
+    5. **Wait for connection**: Your smartphone’s camera feed should automatically appear in the Iriun Webcam software on your computer.
 6. **Run the Application**:
     ```bash
     python3 main.py
