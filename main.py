@@ -9,7 +9,7 @@ import nltk
 from object import detect
 from texttovoice import speak
 
-# Necessary NLTK downloads
+# Necessary NLTK Downloads
 nltk.download('punkt')
 nltk.download('punkt_tab')
 nltk.download('averaged_perceptron_tagger_eng')
@@ -44,10 +44,10 @@ def find_command(text):
 # Load YOLO model
 yolo = YOLO('yolov8l.pt')
 
-# Webcam settings for Macbook's FaceTime HD Camera
+# Webcam settings for Iriun Webcam free plan (resolution is 720p)
 frameWidth = 1280
 frameHeight = 720
-vid = cv2.VideoCapture(0)
+vid = cv2.VideoCapture(0)  # Value 0 should default to Iriun Webcam, otherwise try 1 or 2
 vid.set(3, frameWidth)
 vid.set(4, frameHeight)
 vid.set(10, 150)
