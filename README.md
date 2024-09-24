@@ -36,7 +36,7 @@ To set up Finding Buddy, follow these steps:
 
 3. **Install Dependencies**:
     ```bash
-         # NOTE: Uncomment PyObjC in requirements.txt if running macOS
+         # NOTE: Uncomment PyObjC (in requirements.txt) if running macOS
     pip3 install -r requirements.txt
     ```
 
