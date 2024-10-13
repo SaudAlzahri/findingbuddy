@@ -1,5 +1,5 @@
 gTTS
-playsound
+playsound==1.2.2
 opencv-python
 ultralytics
 mediapipe
