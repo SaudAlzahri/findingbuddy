@@ -29,6 +29,8 @@ To set up Finding Buddy, follow these steps:
     source ./venv/bin/activate
     # Windows
     venv/Scripts/activate
+    # Anaconda
+    conda create -n venv python==3.11
     
     cd findingbuddy
 
