@@ -93,7 +93,7 @@ To set up Finding Buddy, follow these steps:
 
 ## Documentation
 Drive link to the scientific research paper:
-&nbsp;[**Research Paper**](google.com)
+&nbsp;[**Research Paper**](https://github.com/SaudAlzahri/findingbuddy/blob/main/v6%20-%20ICCCE-2025-Object%20Localization%20Sight%20to%20Sound%20System%20for%20Visually%20Impaired%20Community.pdf)
 
 Youtube link to filming of testing and validation process: &nbsp; [**Video Demonstration**](https://www.youtube.com/watch?v=zEVl4kBO3d4)
 
